@@ -7,7 +7,8 @@
 [![Project Chat][chat-image]][chat-link]
 [![Build Status][build-image]][build-link]
 [![HAZMAT][hazmat-image]][hazmat-link]
-[![Rust](https://github.com/tuanquynh785/mkv/actions/workflows/mkv-block.yml/badge.svg)](https://github.com/tuanquynh785/mkv/actions/workflows/mkv-block.yml)
+
+
 
 Pure Rust implementation of the MKV Block Cipher: [MKV Cipher Wiki][1] and [TCVN 14263:2024][2].
 
@@ -71,8 +72,8 @@ dual licensed as above, without any additional terms or conditions.
 [hazmat-link]: https://github.com/RustCrypto/meta/blob/master/HAZMAT.md
 [chat-image]: https://img.shields.io/badge/zulip-join_chat-blue.svg
 [chat-link]: https://rustcrypto.zulipchat.com/#narrow/stream/260039-block-ciphers
-[build-image]: https://github.com/RustCrypto/block-ciphers/workflows/mkv-block/badge.svg?branch=master&event=push
-[build-link]: https://github.com/RustCrypto/block-ciphers/actions?query=workflow%3Amkv-block
+[build-image]: https://github.com/tuanquynh785/mkv/actions/workflows/mkv.yml/badge.svg
+[build-link]: https://github.com/tuanquynh785/mkv/actions/workflows/mkv.yml
 
 [//]: # (general links)
 
