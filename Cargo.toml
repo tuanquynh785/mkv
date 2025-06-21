@@ -1,0 +1,10 @@
+[package]
+name = "mkv"
+version = "0.1.0"
+edition = "2024"
+description = "display assert panics in hexadecimal {:#x?} format"
+license = "MIT"
+documentation = "https://docs.rs/mkv-block"
+repository = "https://github.com/tuanquyng785/mkv"
+
+[dependencies]
