@@ -1,0 +1,83 @@
+# RustCrypto: MKV Block Cipher
+
+[![crate][crate-image]][crate-link]
+[![Docs][docs-image]][docs-link]
+![Apache2/MIT licensed][license-image]
+![Rust Version][rustc-image]
+[![Project Chat][chat-image]][chat-link]
+[![Build Status][build-image]][build-link]
+[![HAZMAT][hazmat-image]][hazmat-link]
+[![Rust](https://github.com/tuanquynh785/mkv/actions/workflows/mkv-block.yml/badge.svg)](https://github.com/tuanquynh785/mkv/actions/workflows/mkv-block.yml)
+
+Pure Rust implementation of the MKV Block Cipher: [MKV Cipher Wiki][1] and [TCVN 14263:2024][2].
+
+National standard [TCVN 14263:2024][2]: Information technology – Security techniques – [Block cipher algorithm MKV (details)][3].
+
+A new block cipher for the Post-Quantum Cryptography Transition: [ViEncrypt][4].
+
+For the first time, [Vietnam has a Cryptographic Algorithm Standard][5] for the Civil Sector.
+
+
+[Documentation][docs-link]
+
+## ⚠️ Security Warning: [Hazmat!][hazmat-link]
+
+This crate does not ensure ciphertexts are authentic (i.e. by using a MAC to
+verify ciphertext integrity), which can lead to serious vulnerabilities
+if used incorrectly!
+
+No security audits of this crate have ever been performed, and it has not been
+thoroughly assessed to ensure its operation is constant-time on common CPU
+architectures.
+
+USE AT YOUR OWN RISK!
+
+## Minimum Supported Rust Version
+
+Rust **1.56** or higher.
+
+Minimum supported Rust version can be changed in the future, but it will be
+done with a minor version bump.
+
+## SemVer Policy
+
+- All on-by-default features of this library are covered by SemVer
+- MSRV is considered exempt from SemVer as noted above
+
+## License
+
+Licensed under either of:
+
+ * [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+ * [MIT license](http://opensource.org/licenses/MIT)
+
+at your option.
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as above, without any additional terms or conditions.
+
+[//]: # (badges)
+
+[crate-image]: https://img.shields.io/crates/v/mkv128.svg
+[crate-link]: https://crates.io/crates/mkv-block
+[docs-image]: https://docs.rs/mkv-block/badge.svg
+[docs-link]: https://docs.rs/mkv-block
+[license-image]: https://img.shields.io/badge/license-Apache2.0/MIT-blue.svg
+[rustc-image]: https://img.shields.io/badge/rustc-1.56+-blue.svg
+[hazmat-image]: https://img.shields.io/badge/crypto-hazmat%E2%9A%A0-red.svg
+[hazmat-link]: https://github.com/RustCrypto/meta/blob/master/HAZMAT.md
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-blue.svg
+[chat-link]: https://rustcrypto.zulipchat.com/#narrow/stream/260039-block-ciphers
+[build-image]: https://github.com/RustCrypto/block-ciphers/workflows/mkv-block/badge.svg?branch=master&event=push
+[build-link]: https://github.com/RustCrypto/block-ciphers/actions?query=workflow%3Amkv-block
+
+[//]: # (general links)
+
+[1]: https://en.wikipedia.org/wiki/MKV_(cipher)
+[2]: https://tieuchuan.vsqi.gov.vn/tieuchuan/view?sohieu=TCVN+14263%3A2024
+[3]: https://caselaw.vn/van-ban-phap-luat/462893-tieu-chuan-quoc-gia-tcvn-14263-2024-ve-cong-nghe-thong-tin-ky-thuat-an-toan-thuat-toan-ma-khoi-mkv-nam-2024
+[4]: https://ctcrypt.ru/files/files/2024/04/sc/Nguyen%20Bui%20Cuong.pdf
+[5]: https://antoanthongtin.vn/tin/lan-dau-tien-viet-nam-co-tieu-chuan-thuat-toan-mat-ma-danh-cho-linh-vuc-dan-su
