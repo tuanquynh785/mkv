@@ -7,7 +7,7 @@
 [![Project Chat][chat-image]][chat-link]
 [![Build Status][build-image]][build-link]
 [![HAZMAT][hazmat-image]][hazmat-link]
-[![Rust](https://github.com/tuanquynh785/mkv/actions/workflows/mkv-block.yml/badge.svg)](https://github.com/tuanquynh785/mkv/actions/workflows/mkv-block.yml)
+[![Rust](https://github.com/tuanquynh785/mkv/actions/workflows/mkv.yml/badge.svg)](https://github.com/tuanquynh785/mkv/actions/workflows/mkv.yml)
 
 Pure Rust implementation of the MKV Block Cipher: [MKV Cipher Wiki][1] and [TCVN 14263:2024][2].
 
